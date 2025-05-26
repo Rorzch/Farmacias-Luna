@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmacia Luna</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #3b5998;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      color: white;
+    }
+
+    .logo img {
+      height: 50px;
+    }
+
+    .nav-menu a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav-menu a:hover {
+      text-decoration: underline;
+    }
+
+    /* HERO */
+    .hero {
+      background-color: #e0e7ff;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      background-color: #3b5998;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .cta-button:hover {
+      background-color: #2e4673;
+    }
+
+    /* TWO COLUMN SECTION */
+    .info-section {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 50px;
+      background-color: white;
+    }
+
+    .info-section .column {
+      flex: 1;
+      padding: 20px;
+      min-width: 300px;
+    }
+
+    .info-section img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    /* GALLERY */
+    .gallery {
+      padding: 50px;
+      background-color: #eef1f7;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #3b5998;
+      color: white;
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+
+    footer img {
+      height: 50px;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      margin-bottom: 10px;
+    }
+
+    .social-buttons a {
+      display: inline-block;
+      margin-right: 10px;
+      background-color: white;
+      color: #3b5998;
+      padding: 8px 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <a href="#"><img src="https://via.placeholder.com/150x50?text=Logo" alt="Logo Farmacia Luna"></a>
+  </div>
+  <div class="nav-menu">
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Bienvenido a Farmacia Luna</h1>
+  <p>Tu salud es nuestra prioridad. Conoce nuestras ubicaciones y servicios médicos.</p>
+  <a href="#servicios" class="cta-button">Ver Servicios</a>
+</section>
+
+<section class="info-section">
+  <div class="column">
+    <img src="https://via.placeholder.com/400x300" alt="Farmacia Luna">
+  </div>
+  <div class="column">
+    <h2>Sobre Nosotros</h2>
+    <p>Farmacia Luna ofrece atención médica confiable con tres sucursales en Ciudad del Carmen. Consulta general, atención rápida y personal capacitado.</p>
+    <a href="#servicios">Ir a Servicios</a>
+  </div>
+</section>
+
+<section class="gallery">
+  <img src="https://via.placeholder.com/300x200" alt="Imagen 1">
+  <img src="https://via.placeholder.com/300x200" alt="Imagen 2">
+  <img src="https://via.placeholder.com/300x200" alt="Imagen 3">
+  <img src="https://via.placeholder.com/300x200" alt="Imagen 4">
+  <img src="https://via.placeholder.com/300x200" alt="Imagen 5">
+  <img src="https://via.placeholder.com/300x200" alt="Imagen 6">
+</section>
+
+<footer>
+  <div>
+    <img src="https://via.placeholder.com/150x50?text=Logo" alt="Logo">
+  </div>
+  <div>
+    <h4>Servicios</h4>
+    <ul>
+      <li>Consulta General</li>
+      <li>Venta de Medicamentos</li>
+      <li>Toma de Presión</li>
+      <li>Aplicación de Inyecciones</li>
+    </ul>
+  </div>
+  <div>
+    <h4>Legales</h4>
+    <ul>
+      <li>Aviso de privacidad</li>
+      <li>Términos y condiciones</li>
+      <li>Política de devoluciones</li>
+      <li>Cookies</li>
+    </ul>
+  </div>
+  <div>
+    <h4>Síguenos</h4>
+    <div class="social-buttons">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
